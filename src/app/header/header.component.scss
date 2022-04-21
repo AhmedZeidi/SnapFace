@@ -1,0 +1,50 @@
+header {
+  background-color: rgba(lightgreen, 0.4);
+  color: darkgreen;
+  width: 100%;
+  // position: fixed;
+  // z-index: 999;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+
+  h1{
+    padding-left: 40px;
+  }
+// }
+
+nav{   
+   padding-right: 40px;
+}
+//    a{
+//      padding-left: 15px;
+//      color: darkgreen;
+//      text-decoration: none;
+//      &:hover{
+//        text-decoration: underline;
+//      }
+//    }
+
+// }
+
+// .active {
+//   color: rgb(0, 128, 0);
+//   text-decoration: underline;
+// }
+
+
+a {
+  margin: 0 10px;
+  color: #333;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.active {
+  color: #666;
+  text-decoration: underline;
+}
